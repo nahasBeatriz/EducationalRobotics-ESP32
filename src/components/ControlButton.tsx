@@ -15,8 +15,7 @@ type Props = {
         style={[styles.btn, { backgroundColor: disabled ? '#555' : color }, style]}
         onPress={onPress}
         disabled={disabled}
-        activeOpacity={0.7}
-        >
+        activeOpacity={0.7}>
         <Text style={styles.label}>{label}</Text>
         </TouchableOpacity>
     );
